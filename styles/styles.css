@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Ravi-Bold";
+    src: url(../fonts/Ravi-Bold.ttf);
+}
+
+body {
+    margin: 0;
+    font-family: "Ravi-Bold";
+}
+
+.main-header {
+    background-color: aquamarine;
+    width: 100%;
+}
+
+.main-header__logo {
+    text-decoration: none;
+}
+
+.main-header > div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main-nav {
+    display: inline-block;
+    width: calc(100% - 4rem);
+    text-align: right;
+    vertical-align: middle;
+}
+
+.main-nav__items {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+
+.main-nav__item {
+    display: inline-block;
+    padding: 1rem;
+}
+
+.main-nav__item a {
+    text-decoration: none;
+}
+
+.main-nav__item--account a {
+    background-color: cadetblue;
+    color: aliceblue;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+}
+
+#overview {
+    width: 100%;
+    height: 20rem;
+    background-image: url("https://picsum.photos/2000");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
